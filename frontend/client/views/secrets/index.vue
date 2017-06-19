@@ -117,7 +117,7 @@
                   <!-- View-only -->
                   <td v-else>
                     {{ entry.desc }}
-                  </td>                                  
+                  </td>
 
                   <td width="68">
                     <a v-if="editMode && currentPathType === 'Secret'" @click="deleteItem(index)">
